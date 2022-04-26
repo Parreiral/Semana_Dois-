@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@1,300&family=Playfair+Display:ital@1&display=swap');
+h1{
+    color: rgb(61, 148, 207);
+    font-size:60px;
+    font-weight: 700;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 0 0 10px rgb(160, 245, 255);
+}
+
+
+#d1{
+    width: 400px;
+    height: 400px;
+    background-color:rgb(61, 148, 207);
+    border: hidden;
+    border-width: 2px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 10px 5px 46px 2px #3E96D3;    
+    
+}   
+#d2{
+    width: 600px;
+    height: 600px;
+    background-color:rgb(61, 148, 207);
+    border: hidden;
+    border-width: 2px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 10px 5px 46px 2px #3E96D3;   
+    
+}
+
+
+label{
+    color:rgb(255, 255, 255);
+    font-size:40px;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 0 0 10px rgb(134, 206, 255);
+    
+}
+
+
+.content-center{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 25px;
+    padding: 5px;
+    width: 80%;
+    
+}
+
+input:focus{
+    outline: 0;
+}
+
+button{
+    background-color: white;
+    border: hidden;
+    border-radius: 25px;
+    padding: 10px 50px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(61, 148, 207);
+    font-size: 20px;
+}
+
+a{
+    color:rgb(61, 148, 207);
+}
+
+fieldset{
+    border:hidden;
+    width: 250px;
+    height: 450px;
+    border-radius: 25px;
+    padding: 0px 45px;
+    border-color: #000000;
+    background-color: #3E96D3;
+    box-shadow: 10px 5px 46px 2px #3E96D3;   
+}
+legend{
+    border: hidden;
+    border-radius: 25px;
+    background-color: white;
+    width: 60px;
+    padding: 0px 12px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color:#3E96D3;
+}
+
+input#spec{
+    border:hidden;
+    border-color: #3E96D3;
+    width: 200px;
+}
+
+.header {
+    padding: 5px;
+    background:#3E96D3;
+    font-size: 30px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+#fielddiv{
+    background: white;
+}
+
+#legend2{
+    border: hidden;
+    border-radius: 25px;
+    background-color: #3E96D3;
+    width: 80px;
+    padding: 0px 12px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color:white;
+}
+
+#btn1{
+    background:#57d33e;
+    color:white;
+    box-shadow: 10px 5px 46px 2px #57d33e;   
+}
+#btn2{
+    background:#d33e3e;
+    color:white;
+    box-shadow: 10px 5px 46px 2px #d33e3e;   
+}
+
+#btn3{
+    background-color: #3E96D3;
+    color:white;
+    box-shadow:10px 5px 46px 2px #3E96D3;
+}
+
